@@ -5,6 +5,9 @@ public class Property {
     private String address;
     private Float amount;
 
+    public Property() {
+    }
+
     public Property(Integer code, String address, Float amount) {
         this.code = code;
         this.address = address;

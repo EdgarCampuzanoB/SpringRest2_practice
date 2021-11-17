@@ -4,6 +4,9 @@ public class Customer {
     private String dni;
     private String name;
 
+    public Customer() {
+    }
+
     public Customer(String dni, String name) {
         this.dni = dni;
         this.name = name;

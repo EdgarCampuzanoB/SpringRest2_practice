@@ -2,19 +2,18 @@ package com.example.SpringIIPractice.repository;
 
 import com.example.SpringIIPractice.entity.Customer;
 import com.example.SpringIIPractice.entity.Property;
+import org.springframework.stereotype.Repository;
 
 import java.util.Date;
 
+@Repository
 public class Charge {
     private Integer number;
     private Date date;
     private Customer customer;
     private Property property;
 
-    public Charge(Date date, Customer customer, Property property) {
-        this.date = date;
-        this.customer = customer;
-        this.property = property;
+    public Charge() {
     }
 
     public Integer getNumber() {
